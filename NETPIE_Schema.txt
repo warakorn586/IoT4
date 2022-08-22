@@ -1,0 +1,45 @@
+########################
+Part 1
+########################
+
+{
+  "additionalProperties": true,
+  "properties": {
+    "temperature": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "string"
+    }
+  }
+}
+
+########################
+Part2
+########################
+
+{
+  "additionalProperties": true,
+  "properties": {
+    "temperature": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "number"
+    },
+    "ledState": {
+      "operation": {
+        "store": {
+          "ttl": "2d"
+        }
+      },
+      "type": "string"
+    }
+  }
+}
+
+
